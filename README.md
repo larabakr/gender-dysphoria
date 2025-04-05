@@ -1,7 +1,7 @@
 # Trans People: A Scientific Understanding
 
 
-This explainer seeks to grant you a better understanding of trans people and gender dysphoria.
+This explainer seeks to grant you a better understanding of trans people and gender dysphoria. It does its best to accurately reflect current scientific understanding.
 
 The information presented in this article is based on a comprehensive review of scientific literature, including studies published in peer-reviewed journals, books, and reports from reputable organizations.
 
