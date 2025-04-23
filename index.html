@@ -3110,40 +3110,114 @@
           pre-registered studies.
 
           <br /><br />
-          Statistical association, which is when two variables are not
-          independent (they vary together in a predictable way). Then the
-          measure of association quantifies how closely the variables move
+          Statistical association is when two variables are not independent (it
+          merely tells you that they vary together in a predictable way).
+          Measure of association quantifies how closely the variables move
           together (correlation coefficient: -1 ≤ r ≤ +1), where there's a
-          positive association, no linear association and a negative
-          association, the strength is indicated by how close or far it is from
-          ±1. Note that strength alone is not sufficient. Selection bias or
-          measurement error can also inflate the apparent strength of an
-          association without reflecting reality. Even when r ≈ ±1.0 (almost
-          perfect correlation), one must ask: “Could some lurking variable
-          explain this link? Associations can give us predictive power. However,
-          it has its limitations. For example, there might be a hidden third
-          variable that drives both variables (a confounder) that affects both
-          the cause and effect. Or spurious correlations might arise (which are
-          often very strong), coincidences can occur with large datasets (shoe
-          size vs reading ability in children) purely by chance. It's also
-          useful as an investigative tool. (finding an association is the first
-          step, later studies such as experiments andlongitudinal data) are
-          needed to probe causation. Which is why "Correlation ≠ Causation",
-          always look for confounding variables that could explain the
-          relationship. Causation is established through temporal order (show
-          the cause precedes the effect), dose–response relationship
-          (Demonstrate increasing exposure leads to stronger effect),
-          Experimental evidence (Randomized trials or interventions can isolate
-          causality by controlling confounders) and Plausible mechanism
-          (Biological or theoretical rationale linking cause and effect). Now,
-          cross-sectional vs. longitudinal studies: cross-sectional studies
+          positive association, no linear association (a non-linear association
+          may also exist) and a negative association. A positive association
+          means that as one variable increases, the other also increases; a
+          negative association means that as one increases, the other decreases.
+          <br /><br />
+          The strength is indicated by how close or far it is from ±1. Note that
+          strength alone is not sufficient. Selection bias or measurement error
+          can also inflate the apparent strength of an association without
+          reflecting reality. Even when r ≈ ±1.0 or (|r|≈1) (almost perfect
+          correlation), one must ask: "Could some lurking variable explain this
+          link?". Outliers can disproportionately affect r, so always visualize
+          your data before relying on the numeric value alone. Also, r is for
+          linear association only, ρ (Spearman) and τ (Kendal) capture monotonic
+          but potentially non-linear trends. <br /><br />
+          Associations can give us predictive power. However, prediction is not
+          explanation, it has its limitations. For example, there might be a
+          hidden third variable that drives both variables (a confounder) that
+          affects both the cause and effect. Or spurious correlations might
+          arise (which are often very strong), coincidences can occur with large
+          datasets (like a dataset with thousands of columns but two parameters:
+          shoe size and reading ability in children, you'd wind up thinking
+          bigger shoe size = better reader. And obviously that's not true)
+          purely by chance. A strong correlation is nothing more than a lead,
+          they're starting clues and not final verdicts. It's also useful as an
+          investigative tool. Finding an association is the first step, later
+          studies (experiments, longitudinal data, replicated studies and
+          meta-analyses) are needed to probe causation. Which is why,
+          "Correlation ≠ Causation".
+          <br /><br />
+          Always look for confounding variables that could explain the
+          relationship. Causation is established through temporal order (showing
+          the cause precedes the effect), dose–response relationship (showing
+          increasing exposure leads to stronger effect), experimental evidence
+          (randomized trials or interventions can isolate causality by
+          controlling confounders), and a plausible mechanism (biological or
+          theoretical rationale linking cause and effect).
+          <br /><br />
+          An interesting real-world example of when strong correlations in
+          observational data that were untested for key confounders or biases
+          led to clinical and legal decisions that were later reversed by more
+          rigorous, controlled research is the Bendectin and birth defects case:
+          <br /><br />
+          From 1956 to 1983, up to 25% of pregnant women in the U.S. took the
+          anti-nausea drug Bendectin, after observational studies suggested a
+          link to congenital malformations. Lawsuits and panic drove the
+          manufacturer to withdraw it, yet later, far more rigorous
+          investigations (including reanalyses and controlled studies) found no
+          causal relationship between Bendectin and birth defects. Hospitals saw
+          a doubling of severe morning-sickness hospitalizations, and only in
+          2014 did the
+          <a
+            href="https://www.cbsnews.com/news/fda-approves-morning-sickness-pill-that-was-taken-off-market-30-year-ago/"
+            target="_blank"
+            >FDA re-approve the drug</a
+          >, acknowledging the original association was spurious. <br /><br />
+          This shows how strong, observational correlations (even ones that seem
+          intuitive!) can lead to serious harm when not subjected to proper
+          scientific scrutiny. The same standards must be applied to claims
+          about marginalized groups.
+
+          <br /><br />
+
+          Prioritize replication (repeated verification, the gold standard for
+          scientific credibility) and meta-analyses over single‐study claims,
+          especially from eras with known stigma or moral bias (like 70s and 80s
+          sex research). Always examine sample size (must be sufficiently large
+          and varied), recruitment methods (representative or biased?), and
+          operational definitions (clear or vague). Guard against sampling bias,
+          if participants are not representative of the broader population, the
+          study's external validity (its ability to generalize beyond the
+          sample) collapses. Look for controls of confounding variables and
+          whether outliers were addressed. Even if an association between X and
+          Y is observed, ask what plausible theoretical or biological mechanism
+          could explain it; correlation alone never establishes causation.
+          speculative links without mechanism are scientifically meaningless.
+          <br /><br />
+          Check if there's a conflict of interest or researcher bias: Were the
+          investigators affiliated with religious, political, or moralistic
+          groups? A lack of a conflict of interest disclosure is a major red
+          flag. Don't just note that an association exists, quantify it (effect
+          size: cohen's d, odds ratio) and statistical reliability (confidence
+          intervals, p-values) must be reported. Small effects in small samples
+          indicate unreliability, not strength. Investigate study design and
+          preregistration, was it an observational case series (anecdotal and
+          exploratory; weak empirical evidence) or a properly designed and
+          controlled experiment? Without preregistration, hypotheses can be
+          retrofitted to data, making the 'explanation' post hoc storytelling,
+          not science. Check if the authors preregistered hypotheses (to avoid
+          hypothesizing after the results are known). If not, it's purely
+          exploratory and shouldn't be used to "explain" anything beyond its own
+          specific dataset. Again, that is: replication, sampling, confounds,
+          causality, bias, design, strength of effect. Anything less is just
+          cherry-picked correlation, not robust science.
+
+          <!-- Gowrl that's the absolut minimum fr. -->
+
+          <br /><br />
+          Now, cross-sectional vs. longitudinal studies: cross-sectional studies
           collect data at one point in time (a snapshot), while longitudinal
           studies collect data over time, through multiple points to observe
           changes. It's important because cross-sectional studies identify
           associations but can't show cause and effect, longitudinal studies
           track changes and suggest causal relationships. Basically, long-term
-          research gives stronger evidence for change over time.
-          <br /><br />
+          research gives stronger evidence for change over time. <br /><br />
           Measurement validity is how we ensure that a tool actually measures
           what it's supposed to measure, while measurement reliability is the
           consistency of those measurements over time or across different
